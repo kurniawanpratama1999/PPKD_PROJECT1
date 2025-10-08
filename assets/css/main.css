@@ -1,0 +1,33 @@
+#gambar2,
+#gambar3,
+#gambar4,
+#gambar5,
+#gambar6 {
+  background-size: cover;
+}
+
+#gambar2 {
+  background-image: url("../stok-gambar-suitable-space-website/2.png");
+}
+#gambar3 {
+  background-image: url("../stok-gambar-suitable-space-website/4.png");
+}
+#gambar4 {
+  background-image: url("../stok-gambar-suitable-space-website/5.png");
+}
+#gambar5 {
+  background-image: url("../stok-gambar-suitable-space-website/6.png");
+}
+#gambar6 {
+  background-image: url("../stok-gambar-suitable-space-website/7.png");
+}
+
+.card-image {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+}

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body id="ROOT" class="bg-slate-200">
+    <div id="LAYOUTS" class="container mx-auto bg-white shadow min-h-dvh">
+      <!-- HEADER -->
+      <div
+        class="flex items-center justify-between relative h-14 z-50 py-10 px-4">
+        <header
+          class="flex items-center justify-between w-full h-full bg-white">
+          <a href="#" class="block">
+            <img
+              src="./assets/stok-gambar-suitable-space-website/logo.png"
+              alt="SuitableSpace"
+              width="200px"
+              class="block" />
+          </a>
+          <button type="button" class="sm:hidden">🍔</button>
+        </header>
+        <nav
+          class="hidden sm:flex flex-col sm:flex-row absolute sm:static top-14 bg-white p-3 gap-y-3 z-[-1] max-sm:shadow w-full left-0 sm:gap-x-7 sm:justify-end">
+          <a href="#">Homepage</a>
+          <a href="#">Services</a>
+          <a href="#">Contacts</a>
+          <a href="#">Articles</a>
+        </nav>
+      </div>
+
+      <main>
+        <!-- HERO SECTION -->
+        <section
+          id="HERO"
+          class="relative pt-10 min-h-[50dvh] rounded-2xl overflow-hidden mx-5">
+          <img
+            src="./assets/stok-gambar-suitable-space-website/1.png"
+            class="absolute top-0 left-0 w-full h-full object-cover" />
+          <div
+            class="absolute top-0 left-0 w-full h-full px-10 flex flex-col max-lg:justify-center sm:pt-20">
+            <h1
+              style="text-shadow: 1px 1px 1px white, -1px -1px 1px white"
+              class="text-5xl sm:text-6xl lg:text-7xl font-mono font-bold max-lg:text-center">
+              SuitableSpace
+            </h1>
+            <h2
+              style="text-shadow: 1px 1px 1px white, -1px -1px 1px white"
+              class="text-2xl sm:text-3xl lg:text-5xl font-mono font-bold max-lg:text-center">
+              Smart Space For Growing Business
+            </h2>
+
+            <div class="space-y-3 mt-5">
+              <button
+                class="block w-full max-w-[600px] py-3 bg-white/50 rounded-full border max-lg:mx-auto">
+                🍗 Cari Ruangan
+              </button>
+              <button
+                class="block w-full max-w-[600px] py-3 bg-white/50 rounded-full border max-lg:mx-auto">
+                🥩 Hubungi Kami
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RECOMENDATION SECTION -->
+        <section class="min-h-[50dvh] p-5">
+          <div class="grid lg:grid-cols-2 gap-10">
+            <div>
+              <h2 class="text-xl font-bold text-center mb-2">
+                Rekomendasi Ruang Office dan Meeting
+              </h2>
+              <div
+                style="
+                  background-image: url(./assets/stok-gambar-suitable-space-website/2.png);
+                  background-size: cover;
+                "
+                class="relative rounded-2xl overflow-hidden aspect-square bg-black">
+                <!-- DESC START -->
+                <div
+                  class="absolute bottom-5 left-5 right-5 min-h-32 bg-black/50 rounded-xl p-3">
+                  <h3
+                    style="text-shadow: 1px 1px 1px black"
+                    class="text-white font-bold text-2xl">
+                    Ruang Office 1 Orang
+                  </h3>
+                  <div class="grid grid-cols-2 gap-2 mt-3">
+                    <button
+                      class="col-start-1 row-start-1 bg-white py-1 rounded-full">
+                      Details
+                    </button>
+                    <button
+                      class="col-start-1 row-start-2 bg-emerald-500 rounded-full py-1">
+                      Contact Us
+                    </button>
+                    <p
+                      class="col-start-2 row-span-2 self-end justify-self-end text-white font-bold flex flex-row gap-1">
+                      <span>Rp</span>
+                      <span class="text-3xl">500.000</span>
+                      <span class="self-end">/ bln</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+              <div
+                style="
+                  background-image: url(./assets/stok-gambar-suitable-space-website/4.png);
+                  background-size: cover;
+                "
+                class="relative group rounded-2xl overflow-hidden aspect-square bg-black">
+                <!-- DESC START -->
+                <div
+                  class="absolute bottom-1 left-1 right-1 bg-black/50 rounded-xl p-3 text-sm opacity-0 group-hover:opacity-100 transition-[opacity]">
+                  <h3
+                    style="text-shadow: 1px 1px 1px black"
+                    class="text-white font-bold">
+                    Ruang Office 8 Orang
+                  </h3>
+                  <div class="grid grid-cols-2 gap-2 mt-3 text-xs">
+                    <button
+                      class="col-start-1 row-start-1 bg-white py-1 rounded-full">
+                      Details
+                    </button>
+                    <button
+                      class="col-start-2 row-start-1 bg-emerald-500 rounded-full py-1">
+                      Contact Us
+                    </button>
+                    <p
+                      class="col-span-2 row-start-2 self-end justify-self-center text-white font-bold flex flex-row gap-1">
+                      <span>Rp</span>
+                      <span>500.000</span>
+                      <span>/ bln</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background-image: url(./assets/stok-gambar-suitable-space-website/5.png);
+                  background-size: cover;
+                "
+                class="relative group rounded-2xl overflow-hidden aspect-square bg-black">
+                <!-- DESC START -->
+                <div
+                  class="absolute bottom-1 left-1 right-1 bg-black/50 rounded-xl p-3 text-sm opacity-0 group-hover:opacity-100 transition-[opacity]">
+                  <h3
+                    style="text-shadow: 1px 1px 1px black"
+                    class="text-white font-bold">
+                    Ruang Office 10 Orang
+                  </h3>
+                  <div class="grid grid-cols-2 gap-2 mt-3 text-xs">
+                    <button
+                      class="col-start-1 row-start-1 bg-white py-1 rounded-full">
+                      Details
+                    </button>
+                    <button
+                      class="col-start-2 row-start-1 bg-emerald-500 rounded-full py-1">
+                      Contact Us
+                    </button>
+                    <p
+                      class="col-span-2 row-start-2 self-end justify-self-center text-white font-bold flex flex-row gap-1">
+                      <span>Rp</span>
+                      <span>500.000</span>
+                      <span>/ bln</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background-image: url(./assets/stok-gambar-suitable-space-website/6.png);
+                  background-size: cover;
+                "
+                class="relative group rounded-2xl overflow-hidden aspect-square bg-black">
+                <!-- DESC START -->
+                <div
+                  class="absolute bottom-1 left-1 right-1 bg-black/50 rounded-xl p-3 text-sm opacity-0 group-hover:opacity-100 transition-[opacity]">
+                  <h3
+                    style="text-shadow: 1px 1px 1px black"
+                    class="text-white font-bold">
+                    Ruang Office 3 Orang
+                  </h3>
+                  <div class="grid grid-cols-2 gap-2 mt-3 text-xs">
+                    <button
+                      class="col-start-1 row-start-1 bg-white py-1 rounded-full">
+                      Details
+                    </button>
+                    <button
+                      class="col-start-2 row-start-1 bg-emerald-500 rounded-full py-1">
+                      Contact Us
+                    </button>
+                    <p
+                      class="col-span-2 row-start-2 self-end justify-self-center text-white font-bold flex flex-row gap-1">
+                      <span>Rp</span>
+                      <span>500.000</span>
+                      <span>/ bln</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background-image: url(./assets/stok-gambar-suitable-space-website/7.png);
+                  background-size: cover;
+                "
+                class="relative group rounded-2xl overflow-hidden aspect-square bg-black">
+                <!-- DESC START -->
+                <div
+                  class="absolute bottom-1 left-1 right-1 bg-black/50 rounded-xl p-3 text-sm opacity-0 group-hover:opacity-100 transition-[opacity]">
+                  <h3
+                    style="text-shadow: 1px 1px 1px black"
+                    class="text-white font-bold">
+                    Ruang Office 12 Orang
+                  </h3>
+                  <div class="grid grid-cols-2 gap-2 mt-3 text-xs">
+                    <button
+                      class="col-start-1 row-start-1 bg-white py-1 rounded-full">
+                      Details
+                    </button>
+                    <button
+                      class="col-start-2 row-start-1 bg-emerald-500 rounded-full py-1">
+                      Contact Us
+                    </button>
+                    <p
+                      class="col-span-2 row-start-2 self-end justify-self-center text-white font-bold flex flex-row gap-1">
+                      <span>Rp</span>
+                      <span>500.000</span>
+                      <span>/ bln</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FASILITAS SECTION -->
+        <section class="p-5">
+          <h2 class="text-3xl text-center">Fasilitas SuitableSpace</h2>
+          <div class="grid grid-cols-4 gap-x-10 mt-5">
+            <div
+              class="aspect-square grid grid-rows-[1fr_auto] place-items-center">
+              <div class="text-4xl text-center">🌮</div>
+              <p class="text-center text-xs py-3 text-center">
+                Internet & Wifi
+              </p>
+            </div>
+            <div
+              class="aspect-square grid grid-rows-[1fr_auto] place-items-center">
+              <div class="text-4xl text-center">🌮</div>
+              <p class="text-center text-xs py-3 text-center">
+                Free Coffee & Tea
+              </p>
+            </div>
+            <div
+              class="aspect-square grid grid-rows-[1fr_auto] place-items-center">
+              <div class="text-4xl text-center">🌮</div>
+              <p class="text-center text-xs py-3 text-center">
+                CCTV & Security
+              </p>
+            </div>
+            <div
+              class="aspect-square grid grid-rows-[1fr_auto] place-items-center">
+              <div class="text-4xl text-center">🌮</div>
+              <p class="text-center text-xs py-3 text-center">Daily Cleaning</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- BENEFIT SECTION -->
+        <section class="p-5">
+          <h4 class="font-bold text-4xl text-center">
+            Keuntungan Sewa Kantor di SuitableSpace
+          </h4>
+          <div class="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <div
+              class="bg-neutral-800 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GALERI SERVICE SECTION -->
+        <section class="py-5 bg-neutral-800">
+          <h5 class="text-center text-white font-bold text-4xl">
+            Galeri Serviced SuitableSpace
+          </h5>
+
+          <div class="overflow-x-auto">
+            <div class="w-[calc(200px*4)] flex gap-4 py-4 pl-3">
+              <div class="w-[200px] h-[230px]">
+                <div
+                  style="
+                    background-image: url(./assets/stok-gambar-suitable-space-website/9.png);
+                    background-size: cover;
+                  "
+                  class="w-full aspect-square rounded-2xl"></div>
+                <p class="text-white font-bold">Lobby</p>
+              </div>
+              <div class="w-[200px] h-[230px]">
+                <div
+                  style="
+                    background-image: url(./assets/stok-gambar-suitable-space-website/9.png);
+                    background-size: cover;
+                  "
+                  class="w-full aspect-square rounded-2xl"></div>
+                <p class="text-white font-bold">Lobby</p>
+              </div>
+              <div class="w-[200px] h-[230px]">
+                <div
+                  style="
+                    background-image: url(./assets/stok-gambar-suitable-space-website/9.png);
+                    background-size: cover;
+                  "
+                  class="w-full aspect-square rounded-2xl"></div>
+                <p class="text-white font-bold">Lobby</p>
+              </div>
+              <div class="w-[200px] h-[230px]">
+                <div
+                  style="
+                    background-image: url(./assets/stok-gambar-suitable-space-website/9.png);
+                    background-size: cover;
+                  "
+                  class="w-full aspect-square rounded-2xl"></div>
+                <p class="text-white font-bold">Lobby</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- APA KATA MEREKA -->
+        <section class="py-5 px-10">
+          <h4 class="font-bold text-4xl text-center">
+            Keuntungan Sewa Kantor di SuitableSpace
+          </h4>
+          <div class="mt-5 grid grid-cols-1 gap-3">
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-neutral-600 h-42 rounded-2xl grid grid-cols-[100px_auto] text-neutral-50 pr-7">
+              <div
+                class="col-start-1 row-span-2 justify-self-center pt-5 text-5xl">
+                🍟
+              </div>
+              <div class="h-full flex flex-col justify-center gap-3">
+                <h5 class="text-2xl font-bold">Profesional</h5>
+                <p class="line-clamp-4 text-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem fuga ut perferendis quos libero reiciendis expedita
+                  labore officiis ab ad aperiam fugiat provident debitis nulla
+                  inventore nihil, id minima neque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DIPERCAYA BERBAGAI PERUSAHAAN -->
+        <section class="p-5">
+          <h6 class="text-xl text-center font-bold">
+            Dipercaya berbagai perusahaan terbersar
+          </h6>
+          <div class="flex flex-wrap gap-4 justify-center mt-5">
+            <div class="basis-[200px] h-[100px] border"></div>
+            <div class="basis-[200px] h-[100px] border"></div>
+            <div class="basis-[200px] h-[100px] border"></div>
+            <div class="basis-[200px] h-[100px] border"></div>
+            <div class="basis-[200px] h-[100px] border"></div>
+          </div>
+        </section>
+      </main>
+      <footer class="bg-neutral-500 p-5 text-white">
+        <div class="grid grid-cols-2 gap-4">
+          <!-- LAYANAN -->
+          <div>
+            <p class="font-bold mb-3">Layanan</p>
+            <ul>
+              <li>Virtual Office</li>
+              <li>Sewa Kantor</li>
+              <li>Ruang Meeting</li>
+              <li>Ruang Acara</li>
+              <li>Studio Podcast</li>
+              <li>Layanan Lainnya</li>
+            </ul>
+          </div>
+
+          <!-- Menu -->
+          <div>
+            <p class="font-bold mb-3">Menu</p>
+            <ul>
+              <li>FAQ</li>
+              <li>Kebijakan Pribadi</li>
+              <li>S & K</li>
+              <li>Karir</li>
+              <li>Promo</li>
+              <li>Check Agreement</li>
+            </ul>
+          </div>
+
+          <!-- Lainnya -->
+          <div>
+            <p class="font-bold mb-3">Lainnya</p>
+            <ul>
+              <li>Beranda</li>
+              <li>Tentang Kami</li>
+              <li>Lokasi</li>
+              <li>Galeri</li>
+              <li>Blog</li>
+              <li>Kontak Kami</li>
+            </ul>
+          </div>
+
+          <!-- Kantor Kami -->
+          <div>
+            <p class="font-bold mb-3">Kantor Kami</p>
+            <p>
+              Cinere Terrace Suite Blok JC 1, Jl. Carita, Pangkalan Jati, Kex.
+              Cinere Kota Depok, Jawa Barat 16514
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
